@@ -29,7 +29,8 @@ class App extends Component<{}, State> {
         <p className="App__message">
           {pressedKey
             ? `The last pressed key is [${pressedKey}]`
-            : 'Nothing was pressed yet'}
+            : 'Nothing was pressed yet'
+          }
         </p>
       </div>
     );
